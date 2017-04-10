@@ -1,0 +1,336 @@
+<html>
+    <head>
+        <title>Sacrarium</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        
+        <script src="./js/jquery-3.2.0.min.js"></script>
+        <script src="./js/bootstrap.js"></script>
+		<script src="./js/segment.min.js"></script>
+		<script src="./js/ease.min.js"></script>
+        <script src="./js/jquery.easing.min.js"></script>
+        <script src="./js/script.js"></script>
+    </head>
+    <body id='page-top' class="section">
+        
+        <header class="banner">
+            <!--<span class="logo">
+                <img src="./images/builder-logo.jpg" alt="">
+            </span>-->
+            <span id="menu-icon">
+                <div id="menu-icon-wrapper2" class="menu-icon-wrapper" style="visibility: hidden">
+                    <svg width="1000px" height="1000px">
+                        <path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                        <path id="pathE" d="M 300 500 L 700 500"></path>
+                        <path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+                    </svg>
+                    <button id="menu-icon-trigger2" class="menu-icon-trigger"></button>
+                </div>
+            </span>
+            <!--<div class="container">-->
+            <nav id="menu" class="menu">
+                <ul>
+                    <li><a href="#page-top" class='page-scroll menu-active'>Home</a></li>
+                    <li><a href="#about-us" class='page-scroll'>About Us</a></li>
+                    <li><a href="#projects" class='page-scroll'>Projects</a></li>
+                    <li><a href="#construction" class='page-scroll'>Construction</a></li>
+                    <li><a href="#associates" class='page-scroll'>Our Associates</a></li>
+                    <li><a href="#contact-us" class='page-scroll'>Contact Us</a></li>
+                </ul>
+            </nav>
+            <!--</div>-->
+            
+            <!-- Full Page Image Background Carousel Header -->
+            <div id="myCarousel" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <!-- Wrapper for Slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- Set the first background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url('./images/img1.jpg');"></div>
+                        <div class="carousel-caption">
+                            <h2>Speciality</h2>
+                            <ul>
+                                <li>Full yellow marble stone of construction gives you royal image as your own palace and makes your residence different and unique among society</li>
+                                <li>Zero Maintenance: No color required, it's natural color and no other related expenses. Its natural shine grows year by year</li>
+                                <li>Life long: It's strength never down, usually construction life is not more than 100 years but it will be strong even after 1000 years, because of pure natural stone construction like historical forts</li>
+                            </ul>
+                            <div class="caption-footer"><h1>GREEN HERITAGE</h1></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!-- Set the second background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url('./images/img2.jpg');"></div>
+                        <div class="carousel-caption">
+                            <h2>Amenities</h2>
+                            <ul>
+                                <li>Indoor games and covered car parking</li>
+                                <li>Health scape gardens</li>
+                                <li>Temple court</li>
+                                <li>Garden pool side sitting</li>
+                                <li>Society office and meeting room open to sky green</li>
+                                <li>Space sitting oasis teenagers hangout corner flowerbed median with street light</li>
+                                <li>Recreational green with bench and royal palms security CA</li>
+                            </ul>
+                            <div class="caption-footer"><h1>KALPVRIKSHA</h1></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!-- Set the third background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url('./images/img3.jpg');"></div>
+                        <div class="carousel-caption">
+                            <h2>Speciality</h2>
+                            <ul>
+                                <li>25km area of Panvel is now announced as Mega city which increases in future property prices </li>
+                                <li>Proposed Airport: Just 9km away from proposed Navi Mumbai international airport</li>
+                                <li>Metro station: 4km away from Navade metro station</li>
+                            </ul>
+                            <div class="caption-footer">
+                                <h1>GREEN VILLAGE</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!-- Set the fourth background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url('./images/img4.jpg');"></div>
+                        <div class="carousel-caption">
+                            <h2>Amenities</h2>
+                            <ul>
+                                <li>Clear title CIDCO transfer plot</li>
+                                <li>G+7 storey fully residential project</li>
+                                <li>1RK, 1BHK & 2BHK flat with natural light and ventilation</li>
+                                <li>Power backup</li>
+                                <li>Rain water harvesting</li>
+                                <li>Reserved parking</li>
+                                <li>Security</li>
+                            </ul>
+                            <div class="caption-footer">
+                                <h1>GREEN VILAS</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!-- Set the fifth background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url('./images/img3.jpg');"></div>
+                        <div class="carousel-caption">
+                            <div class="caption-footer">
+                                <h1>GREENWOOD ESTATE</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+            </div>
+        </header>
+        <div id="nav-bg"></div>
+
+        <!--Body-->
+        <div class="body container-fluid">
+            <div class="section" id="about-us">
+                <div class="content-block-one">
+                    <h1 class='text-center'><span>About Us</span></h1>
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+                    <div class="card-deck">
+                        <div class="card">
+                            <a href=""></a>
+                            <img class="card-img-top" src="./images/300-200-1.jpg" alt="Card image cap">
+                            <div class="card-block">
+                            <h4 class="card-title">High Quality Construction</h4>
+                            <p class="card-text">All our projects are made using high quality construction materials.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./images/300-200-2.jpg" alt="Card image cap">
+                            <div class="card-block">
+                            <h4 class="card-title">Affordable</h4>
+                            <p class="card-text">We understand that buying a home can be expensive. That is why we strive to make housing affordable to all.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./images/300-200-3.jpg" alt="Card image cap">
+                            <div class="card-block">
+                            <h4 class="card-title">Legality</h4>
+                            <p class="card-text">All our projects are approved and confirm to all legal verifications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-space-one row"  id="intro">
+                    <div class="text-center">
+                        <h1><span class='small-header'>Welcome to SACRARIUM</span></h1>
+                        <p>Your home is the reflection of your personality. A perfect home is the combination of ultra modern amenities surrounded by Lush Green Environment. We at Sacrarium provide your dream home. Sacrarium is the well known Real Estate Developer in Navi Mumbai. They are specialised in undertaking marketing and promotion for buying and selling of properties across Mumbai. They undertake many construction projects like Bungalow Construction, Residential Projects, Apartments, House on Plots, Plot Boundary. Their main visitor is to provide affordable home to their client.</p>
+                        <p>We also have Tie up with Government to undertake MSEB work Naina Appproval & Well known Builder Sohal’s Construction. Sacrarium believes in customer’s satisfaction better quality of projects and to fulfil their company ensure to use superior quality of raw materials in most of their construction projects.</p>
+                    </div>
+                </div>
+                <div class="row" id="intro-wide">
+                    <div class="text-block col-md-6">
+                        <h1><span class='small-header'>Welcome to SACRARIUM</span></h1>
+                        <p>Your home is the reflection of your personality. A perfect home is the combination of ultra modern amenities surrounded by Lush Green Environment. We at Sacrarium provide your dream home. Sacrarium is the well known Real Estate Developer in Navi Mumbai. They are specialised in undertaking marketing and promotion for buying and selling of properties across Mumbai. They undertake many construction projects like Bungalow Construction, Residential Projects, Apartments, House on Plots, Plot Boundary. Their main visitor is to provide affordable home to their client.</p>
+                        <p>We also have Tie up with Government to undertake MSEB work Naina Appproval & Well known Builder Sohal’s Construction. Sacrarium believes in customer’s satisfaction better quality of projects and to fulfil their company ensure to use superior quality of raw materials in most of their construction projects.</p>
+                    </div>
+                    <div class="content-space-one text-block-section col-md-6">
+                        <div class='text-block' style="visibility: hidden">
+                        <h1>Welcome to SACRARIUM</h1>
+                        <p>Your home is the reflection of your personality. A perfect home is the combination of ultra modern amenities surrounded by Lush Green Environment. We at Sacrarium provide your dream home. Sacrarium is the well known Real Estate Developer in Navi Mumbai. They are specialised in undertaking marketing and promotion for buying and selling of properties across Mumbai. They undertake many construction projects like Bungalow Construction, Residential Projects, Apartments, House on Plots, Plot Boundary. Their main visitor is to provide affordable home to their client.</p>
+                        <p>We also have Tie up with Government to undertake MSEB work Naina Appproval & Well known Builder Sohal’s Construction. Sacrarium believes in customer’s satisfaction better quality of projects and to fulfil their company ensure to use superior quality of raw materials in most of their construction projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-block-one section" id="projects">
+                <div class='text-center'>
+                    <h1><span>Projects</span></h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 box"><div class="ribbon"><span>SOLD</span></div><a href=""><img src="./images/300-200-1.jpg" alt=""></a></div>
+                    <div class="col-md-4 box"><a href=""><img src="./images/300-200-1.jpg" alt=""></a></div>
+                    <div class="col-md-4 box"><a href=""><img src="./images/300-200-1.jpg" alt=""></a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 box"><a href=""><img src="./images/300-200-1.jpg" alt=""></a></div>
+                    <div class="col-md-4 box"><div class="ribbon"><span>SOLD</span></div><a href=""><img src="./images/300-200-1.jpg" alt=""></a></div>
+                    <div class="col-md-4 box"><div class="ribbon"><span>SOLD</span></div><a href=""><img src="./images/300-200-1.jpg" alt=""></a></div>
+                </div>
+            </div>
+            <div class="content-block-one section" id="construction">
+                <div class="text-center">
+                    <h1><span>Construction</span></h1>
+                </div>
+                <p>
+                    <ul>
+                        <li>SOHAL’S CONSTRUCTION is Scaffolding, staging, shuttering, tunnelling & construction equipment, Decking, Column & also design engineered products for the construction industry in NAVI Mumbai India.</li>
+                        <li>SOHAL’S CONSTRUCTION is committee d to provide world class cost effective, engineering OR construction designs with 40% LESS market price.</li>
+                        <li>SOHAL’S CONSTRUCTION shall work towards continual improvement in Design, Technology, Deliveries and Services to meet the challenges of the future and provide total satisfaction of our customers with 40% LESS market price.</li>
+                        <li>SOHAL’S CONSTRUCTION Improving profitability and share holding value by providing 40% LESS MARKET VALUE TO THE CLEINTS. .</li>
+                        <li>SOHAL’S CONSTRUCTION Improving standards of living and creating good work environments for all its team members and with our clients to make good relationship.</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="content-block-one section" id="associates">
+                <div class="text-center">
+                    <h1><span>Associates</span></h1>
+                </div>
+                <section class="items-wrap">
+                    <a href="#" class="item-block">
+                        <img class="item__image" src="./images/item01.jpg" alt="item01"/>
+                        <h2 class="item__title">Kesari Heritage</h2>
+                    </a>
+                    <a href="#" class="item-block">
+                        <img class="item__image" src="./images/item02.jpg" alt="item02"/>
+                        <h2 class="item__title">Sohail Construction</h2>
+                    </a>
+                    <a href="#" class="item-block">
+                        <img class="item__image" src="./images/item03.jpg" alt="item03"/>
+                        <h2 class="item__title">Synonyms Management Consultancy</h2>
+                    </a>
+                    <a href="#" class="item-block">
+                        <img class="item__image" src="./images/item04.jpg" alt="item04"/>
+                        <h2 class="item__title">N.M. Group</h2>
+                    </a>
+                    <!--<a href="#" class="item-block">
+                        <img class="item__image" src="./images/item05.jpg" alt="item05"/>
+                        <h2 class="item__title">Awe-inspiring</h2>
+                    </a>
+                    <a href="#" class="item-block">
+                        <img class="item__image" src="./images/item06.jpg" alt="item06"/>
+                        <h2 class="item__title">Serene</h2>
+                    </a>-->
+                </section>
+            </div>
+            <div class="content-block-one section" id="contact-us">
+                <div class="text-center">
+                    <h1><span>Contact Us</span></h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 contact-block">
+                        <div class='contact-detail'>
+                            <h3><span class="fa fa-home"></span> Address</h3>
+                            <p>
+                                Unit No. 9, Corporate Park II,<br/>
+                                VN Purav Marg, Near Swastik Chambers,<br/>
+                                Chembur (E), Mumbai, 400071
+                            </p>
+                        </div>
+                        <div class='contact-detail'>
+                            <h3><span class="fa fa-mobile"></span> Mobile</h3>
+                            <p>7045295779 / 9819953864</p>
+                        </div>
+                        <div class='contact-detail'>
+                            <h3><span class="fa fa-phone"></span> Phone</h3>
+                            <p>+91 2261458259</p>
+                        </div>
+                        <div class='contact-detail'>
+                            <h3><span class="fa fa-envelope"></span> Email</h3>
+                            <p>
+                                sacrarium.shraddha@gmail.com<br/>
+                                sales@sacrarium.co.in<br/>
+                                care@sacrarium.co.in
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2049264938114!2d72.88480511437646!3d19.054725557593695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8bb2cc9297d%3A0xca8274c1ac4a805c!2sCorporate+Park!5e0!3m2!1sen!2sin!4v1466134385450" width="100%" height="397px;" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-body row">
+                <div class="col-md-3 footer-section">
+                    <h6>Contact Us</h6>
+                    <p>
+                        Unit No. 9, Corporate Park II,<br/>
+                        VN Purav Marg, Near Swastik Chambers,<br/>
+                        Chembur (E), Mumbai-400071
+                    </p>
+                </div>
+                <div class="col-md-6 quick-links footer-section">
+                    <h6>Quick Links</h6>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Construction</a></li>
+                        <li><a href="">Our Associates</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-section">
+                    <div class="social">
+                        <ul>
+                            <!--<li><a href=""><span class="fa fa-facebook"></span></a></li>
+                            <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                            <li><a href=""><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href=""><span class="fa fa-youtube-play"></span></a></li>-->
+                            <li><a href=""><img src="./images/Facebook.png" alt="" class='social-icons'></a></li>
+                            <li><a href=""><img src="./images/Twitter.png" alt="" class='social-icons'></a></li>
+                            <li><a href=""><img src="./images/GooglePlus.png" alt="" class='social-icons'></a></li>
+                            <li><a href=""><img src="./images/Youtube.png" alt="" class='social-icons'></a></li>
+                        </ul>
+                    </div>
+                    <p>Email: sales@sacrarium.co.in</p>
+                    <p>Phone: 7045295779 / 8080802206</p>
+                </div>
+            </div>
+            <div class="footer-footer">
+                <small>Developed by Sumit Man</small>
+            </div>
+        </footer>
+    </body>
+</html>   
